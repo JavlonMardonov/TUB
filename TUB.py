@@ -1,7 +1,9 @@
+import math
+print('Son kiriting: ')
 a = int(input())
 count = 0
 n = 2
-while n <= sqrt(a):
+while n <= math.sqrt(a):
     if a % n == 0:
         count = count + 1
     n = n + 1
